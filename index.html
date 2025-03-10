@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Next.js App</title>
+    <!-- You can add external CSS or meta tags here -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- This container is where your Next.js app will be hydrated if using client-side scripts -->
+    <div id="__next">
+      <!-- You can optionally include a loading message or fallback content here -->
+      <noscript>Please enable JavaScript to view the app.</noscript>
+    </div>
+
+    <!-- 
+      If you have a static export (using next export) the build process will generate 
+      the necessary JavaScript bundles. These script paths are just placeholders and 
+      will need to match your export output.
+    -->
+    <script src="/_next/static/chunks/webpack.js"></script>
+    <script src="/_next/static/chunks/main.js"></script>
+  </body>
+</html>
